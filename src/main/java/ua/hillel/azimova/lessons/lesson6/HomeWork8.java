@@ -11,7 +11,7 @@ public class HomeWork8 {
         for (int i = 1; ; i++) {
             int x = i % 10;
             i = i / 10;
-            if (i == 4) {
+            if (i == 4 && i == 9) {
                 continue;
             } else if (counter == 100) {
                 break;
