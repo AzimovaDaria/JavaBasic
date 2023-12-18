@@ -42,13 +42,13 @@ public class HomeWork10 {
         System.out.println(Arrays.toString(lottery));
         System.out.println(Arrays.toString(players));
 
-        System.out.print("Збіглися елементи: ");
+        System.out.print("Збіглися індекси: ");
         int index = -1;
         int indexN = 0;
         for (int i = 0; i < n; i++) {
             if (lottery[i] == players[i]) {
                 index = i;
-                System.out.print(index + ", ");
+                System.out.print(index + "й, ");
                 indexN++;
             }
         }
